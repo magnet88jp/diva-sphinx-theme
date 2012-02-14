@@ -1,0 +1,45 @@
+#header {
+}
+
+#sidebar {
+  float: left;
+  margin-left: 2px;
+  margin-right: -3px;
+  padding: 10px; 
+  position: relative;
+  width: 224px;
+  z-index: 3;
+}
+
+.document {
+  float:right;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 2em;
+  width: 655px;
+}
+
+.footer {
+  clear: both;
+}
+
+h1 {
+  padding-left: 10px;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+body { background-color: #F5F6F7; }
+#container { width: 984px; margin: 0 auto; position: relative; }
+#main { width: 100%; position: relative; }
+#content { padding: 18px 20px; position: relative; color: #333; }
+#breadcrumb { clear: both; text-align: center; margin: 18px auto; clear: both; font-size: 10px; color: #686868; }
+
+#content.box { 
+  background: url("http://images.apple.com/support/ipad/images/bg_box.png") repeat-y scroll 0 0 transparent;
+  clear: both;
+  float: left
+  margin: 0;
+  padding: 0;
+  width: 984px;
+}

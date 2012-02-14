@@ -1,0 +1,42 @@
+{% extends "!basic/layout.html" %}
+{%- block extrahead %}
+<link rel="stylesheet" href="{{ pathto('_static/base.css', 1) }}" type="text/css" />
+{% endblock %}
+
+{%- block relbar1 %}{% endblock %}
+{%- block relbar2 %}{% endblock %}
+
+{%- block content %}
+<div id="container">
+  <div id="main">
+    <h1><a href="../">iPhone Support</a></h1>
+    <div id="content" class="box">
+      <div class="cap"></div>
+  {%- block sidebar1 %}
+      <div id="sidebar">
+        <h2>sidebar</h2>
+      </div><!-- /#sidebar -->
+  {% endblock %}
+
+      <div class="document">
+  {%- block document %}
+        <div class="documentwrapper">
+    {%- if render_sidebar %}
+          <div class="bodywrapper">
+    {%- endif %}
+            <div class="body">
+    {% block body %} {% endblock %}
+            </div><!-- /.body -->
+    {%- if render_sidebar %}
+          </div><!-- /.bodywrapper -->
+    {%- endif %}
+        </div><!-- /.documentwrapper -->
+  {%- endblock %}
+
+  {%- block sidebar2 %}{% endblock %}
+        <div class="clearer"></div>
+      </div><!-- /.document -->
+    </div><!-- /#content -->
+  </div><!-- /#main -->
+</div><!-- /#container -->
+{% endblock %}
