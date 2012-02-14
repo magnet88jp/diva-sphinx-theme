@@ -1,0 +1,25 @@
+#promoblock { width:655px; margin:10px auto 0; padding-top:17px; background:url(http://images.apple.com/support/iphone/images/promoblock_top-2.png) no-repeat; zoom:1;}
+#promoblock #promos { width:655px; margin-bottom:0; padding:0 2px 4px; background:url(http://images.apple.com/support/iphone/images/promoblock_bottom-2.png) no-repeat 0 100%; zoom:1; }
+#promoblock #promos:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+#promoblock #promos li.promo { position:relative; float:left; width:190px; min-height:5em; _height:5em; padding:13px; margin-top:-16px; font-size:11px; }
+#promoblock #promos img.left { margin:0 13px 5px 0; }
+#promoblock #promos li.promo table{width:190px; border:0; margin:0;padding:0;}
+#promoblock #promos li.promo table tr td{vertical-align:text-top;width:50%;}
+#promoblock h3 { font-size:14px; font-weight:normal; line-height:1.4; margin-bottom:0.8em; } 
+
+/* Single promo block */
+#promoblock1 { width:655px; margin:18px auto 0; padding-top:17px; background:url(http://images.apple.com/support/iphone/images/promoblock_top-1.png) no-repeat; zoom:1;}
+#promoblock1 #promos1 { width:655px; margin-bottom:0; padding:0 2px 4px; background:url(http://images.apple.com/support/iphone/images/promoblock_bottom-1.png) no-repeat 0 100%; zoom:1; }
+#promoblock1 #promos1:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+#promoblock1 #promos1 li.promo { position:relative; float:left; min-height:5em; _height:5em; padding:13px; margin-top:-16px; font-size:11px; width:570px;}
+#promoblock1 #promos1 img.left { margin:0 13px 5px 0; }
+
+/* Double promo block */
+
+#promoblock2 { width:655px; margin:18px auto 0; padding-top:17px; background:url(http://images.apple.com/support/ipad/images/promoblock_top.png) no-repeat; zoom:1;}
+#promoblock2 #promos { width:655px; margin-bottom:0; padding:0 2px 4px; background:url(http://images.apple.com/support/ipad/images/promoblock_bottom.png) no-repeat 0 100%; zoom:1; }
+#promoblock2 #promos:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+#promoblock2 #promos li.promo { position:relative; float:left; width:300px; min-height:5em; _height:5em; padding:13px; margin-top:-16px; font-size:11px; }
+#promoblock2 #promos img.left { margin:0 13px 5px 0; }
+#promoblock2 #promos li.promo table{width:290px; border:0; margin:0;padding:0;}
+#promoblock2 #promos li.promo table tr td{vertical-align:text-top;width:145px;}

@@ -1,0 +1,120 @@
+body { background-color:#f5f6f7;}
+* { padding:0; margin:0; }
+a { color:#0099cc; }
+h1 { padding-left:10px; font-size:28px; }
+h1 a { color:black; }
+h1 a:hover { text-decoration:none; }
+
+/* language selector */
+#language-selector { float: right; }
+#language-selector li { display:block; float: left; margin: 15px 0 0 0; padding:0 15px 0; border-right:1px solid #ccc; }
+#language-selector li a { color:#333; }
+#language-selector li a:hover { text-decoration:none; color:#08c; }
+#language-selector li.selected { color:#999; }
+#language-selector li.last { border-right:none; }
+
+#container, #main { width:984px;}
+#main .box {font-size: 12px;}
+#content.box { float:left; width:984px; margin:0; padding:0; clear:both; background:url(http://images.apple.com/support/ipad/images/bg_box.png) 0 0 repeat-y;}
+#content.box .cap { width:985px; height:5px; top:0; background:url(http://images.apple.com/support/ipad/images/bg_cap.png) 0 0 no-repeat; }
+#content.box .boot { width:985px; height:7px; bottom:0; background:url(http://images.apple.com/support/ipad/images/bg_boot.png) 0 0 no-repeat; }
+
+
+#sidebar { position:relative; float:left; width:224px; *width:225px; margin-left:2px; _margin-left:1px; margin-right:-3px; padding:10px; z-index:3; *border:none; }
+
+#sidebar .nav { margin:0 -10px; }
+#sidebar .nav li { padding:4px 10px; }
+#sidebar .nav li a { font-size:12px; display:block; position:relative; padding:6px 13px; text-decoration:none; color:#8c8c8c; background:url(http://images.apple.com/ipod/images/sidebarnav_arrow_grey20090909.gif) no-repeat 100% 8px; -webkit-transition:color 0.2s ease-in-out; -moz-transition:color 0.3s ease-in-out; }
+#sidebar .nav:hover li a { -webkit-transition:color 0.2s }
+#sidebar .nav li a:hover { color:#08c; background-image:url(http://images.apple.com/ipod/images/sidebarnav_arrow_blue20090909.gif); }
+#sidebar .nav .icon { position:relative; float:left; margin:-4px 14px 0 -3px; }
+
+#sidebar .nav li.selected { background:#f2f2f2; position:relative; background:-webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#eaeaea)); }
+#sidebar .nav li.selected a { color:#333; cursor:default; background-image:url(http://images.apple.com/ipod/images/sidebarnav_arrow_black20090909.gif); }
+
+#sidebar .nav li.title { color: rgb(148,148,148); font-size:11px; padding-left:16px; padding-top:4px; }
+
+
+/* content */
+#section { float:right; padding-top:2em; padding-left:40px; padding-right:40px; width:655px; }
+#section img.contact{float:left;margin: 10px 10px 16px 20px;}
+#main .box #section h2 { font-size:24px; font-weight:normal; line-height:1.4; margin-bottom:0.6em; color:black; background: none; padding:0;}
+#section h3 { font-size:16px; font-weight:normal; line-height:1.5; margin-bottom:0.6em; } 
+#promoblock h3 { font-size:14px; font-weight:normal; line-height:1.4; margin-bottom:0.8em; } 
+#section .subsection { padding:5px 50px 15px 90px; min-height:60px; _height:60px; }
+#section .divider { border-color:#e8e8e8; }
+p#welcome { color:#888; font-size:16px; font-weight:normal; line-height:1.4; padding-right:280px; }
+
+.btn_cta { display:block; float:left; margin-top:12px; _margin-top:-12px; padding-right:40px; height:42px; background:url(http://images.apple.com/support/ipad/images/btn_cta_right.png) no-repeat top right; text-decoration:none; }
+.btn_cta:hover { text-decoration:none; }
+.btn_cta span { display:block; padding:12px 0 12px 40px; color:#fff; font-weight:normal; font-size:16px; background:url(http://images.apple.com/support/ipad/images/btn_cta_left.png) no-repeat top left; }
+
+#main #resourcelinks li { width:100px; margin:0; padding:0; }
+#main #resourcelinks li.last { margin-right:0; }
+#main #resourcelinks li a { display:block; text-align:center; color:#888; padding:52px 10px 10px 10px; }
+#main #resourcelinks li a.downloads { background:url(http://images.apple.com/support/ipad/images/icon_downloads.png) 30px 10px no-repeat; }
+#main #resourcelinks li a.manuals { background:url(http://images.apple.com/support/ipad/images/icon_manuals.png) 30px 10px no-repeat; }
+#main #resourcelinks li a.specs { background:url(http://images.apple.com/support/ipad/images/icon_specs.png) 30px 10px no-repeat; }
+#main #resourcelinks li a.discussions { background:url(http://images.apple.com/support/ipad/images/icon_discussions.png) 30px 10px no-repeat; }
+#main #resourcelinks li a.videos { background:url(http://images.apple.com/support/ipad/images/icon_videos.png) 30px 10px no-repeat; }
+#main #resourcelinks.right { float:none; padding:0; }
+
+
+#promoblock { width:655px; margin:18px auto 0; padding-top:17px; background:url(http://images.apple.com/support/ipad/images/promoblock_top.png) no-repeat; zoom:1;}
+#promoblock #promos { width:655px; margin-bottom:0; padding:0 2px 4px; background:url(http://images.apple.com/support/ipad/images/promoblock_bottom.png) no-repeat 0 100%; zoom:1; }
+#promoblock #promos:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+#promoblock #promos li.promo { position:relative; float:left; width:300px; min-height:5em; _height:5em; padding:13px; margin-top:-16px; font-size:11px; }
+#promoblock #promos img.left { margin:0 13px 5px 0; }
+#promoblock #promos li.promo table{width:290px; border:0; margin:0;padding:0;}
+#promoblock #promos li.promo table tr td{vertical-align:text-top;width:145px;}
+
+/* results */
+.portlet-spinner { margin:10px 0 0 15px; }
+li.portlet-results { font-size:90%; padding:12px 15px 12px 70px; border-bottom:1px solid #e8e8e8; }
+li.portlet-results.last { border-bottom:none; }
+#main .portlet-results h3 { font-size:12px; font-weight:bold; margin-bottom:0; }
+
+/* doctype icons */
+.dt-document { background:url(http://images.apple.com/support/iknow/images/dt_document.png) 10px 10px no-repeat; }
+.dt-troubleshooting-articles { background:url(http://images.apple.com/support/iknow/images/dt_troubleshooting.png) 10px 10px no-repeat; }
+.dt-discussions { background:url(http://images.apple.com/support/iknow/images/dt_discussions.png) 10px 10px no-repeat; }
+.dt-downloads { background:url(http://images.apple.com/support/iknow/images/dt_downloads.png) 10px 10px no-repeat; }
+.dt-howto-articles { background:url(http://images.apple.com/support/iknow/images/dt_howto.png) 10px 10px no-repeat; }
+.dt-manuals { background:url(http://images.apple.com/support/iknow/images/dt_manuals.png) 10px 10px no-repeat; }
+.dt-specifications { background:url(http://images.apple.com/support/iknow/images/dt_specs.png) 10px 10px no-repeat; }
+.dt-videos { background:url(http://images.apple.com/support/iknow/images/dt_videos.png) 10px 10px no-repeat; }
+.dt-assistant { background:url(http://images.apple.com/support/iknow/images/dt_assistant.png) 10px 10px no-repeat; }
+.dt-check { background:url(http://images.apple.com/support/iknow/images/dt_check.png) 10px 10px no-repeat; }
+.dt-link { background:url(http://images.apple.com/support/iknow/images/dt_link.png) 10px 10px no-repeat; }
+.dt-store { background:url(http://images.apple.com/support/iknow/images/dt_store.png) 10px 10px no-repeat; }
+.dt-itunes { background:url(http://images.apple.com/support/iphone/images/dt_itunes.png) 10px 10px no-repeat; }
+.dt-facetime { background:url(http://images.apple.com/support/iphone/images/dt_facetime.png) 10px 10px no-repeat; }
+.dt-apps { background:url(http://images.apple.com/support/ipad/images/dt_apps.png) 10px 10px no-repeat; }
+.dt-homesharing { background:url(http://images.apple.com/support/homesharing/images/dt_homesharing.png) 10px 10px no-repeat; }
+.dt-icloud { background:url(http://images.apple.com/support/iphone/images/dt_icloud.png) 10px 10px no-repeat; }
+.dt-appleid { background:url(http://images.apple.com/support/appleid/images/dt_appleid.png) 10px 10px no-repeat; }
+
+
+/* warranty checker */
+#warrantycheckpsp .module { border:none; }
+#warrantycheckpsp .module, .tl, .tr, .bl, .br { background:none; top:0; left:0; }
+#main .box #section #warrantycheckpsp h2 { font-size:16px; font-weight:normal; line-height:1.5; margin-bottom:0.3em; }
+#warrantycheckpsp h3 { font-size:14px; margin-bottom:0; }
+#warrantycheckpsp #results h3 { font-size:12px; font-weight:bold; }
+#warrantycheckpsp #hardware-button,
+#warrantycheckpsp #phone-button { display:block; margin-top:10px; } 
+#warrantycheckpsp .module #mainheading { height:32px; width:665px; }
+#warrantycheckpsp .module #serialnumbercheck.sidebar.pad10,
+#warrantycheckpsp .module #product.sidebar.pad10 { font-size:12px; color:#444; padding:0; }
+#warrantycheckpsp .module #results.sidebar.pad10 { font-size:12px; color:#444; padding:0 0 0 90px; }
+#warrantycheckpsp .module #results.sidebar.pad10 { margin-top:15px; }
+#warrantycheckpsp .module #serialnumber { width:250px; padding:3px; }
+#warrantycheckpsp .module #getwarrantysubmitbutton, #registration-button, #serviceoptions-button { padding:2px 6px 3px 6px; }
+#warrantycheckpsp .module #warrantycheckspinner { margin:0 0 0 2px; } 
+#warrantycheckpsp .module #productimage { float:left; }
+#warrantycheckpsp .module #productinfo { padding-left:90px; }
+#warrantycheckpsp .module #hardware-legal { display:block; font-size:10px; color:#888; padding-right:25px; }
+#warrantycheckpsp .module #registration-text, #warrantycheckpsp .module #phone-subheader, #warrantycheckpsp .module #phone-text,
+#warrantycheckpsp .module #hardware-subheader, #warrantycheckpsp .module #hardware-text, #warrantycheckpsp .module #app-subheader,
+#warrantycheckpsp .module #app-text { display:block; padding-left:30px;}
+
