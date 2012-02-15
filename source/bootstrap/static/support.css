@@ -3,11 +3,11 @@
 #main ul { margin-bottom:0; }
 #main ul.square { margin-left: 1.5em; }
 #main ul.square li { line-height: 1.3em; padding: 4px 0; }
-#main ul.video li { line-height: 1.3em; padding: 4px 0; padding-left: 18px; background: url(http://images.apple.com/support/_images/icon_video_sm.gif) no-repeat 0 5px; }
-#main ul.manual li { line-height: 1.3em; padding: 4px 0; padding-left: 18px; background: url(http://images.apple.com/support/_images/icon_manual_sm.png) no-repeat 0 5px; }
-#main li.manual { display:inline; line-height: 1.3em; padding: 4px 0; padding-left: 18px; background: url(http://images.apple.com/support/_images/icon_manual_sm.png) no-repeat 0 5px; } 
-#main li.video { display:inline; line-height: 1.3em; padding: 4px 0; padding-left: 18px; background: url(http://images.apple.com/support/_images/icon_video_sm.gif) no-repeat 0 5px; } 
-#main a.more { text-align:left; background: url(http://images.apple.com/support/_images/morearrow.png) 100% 0.4em no-repeat; padding-right: 9px; *display:inline-block; }
+#main ul.video li { line-height: 1.3em; padding: 4px 0; padding-left: 18px; background: url(images/icon_video_sm.gif) no-repeat 0 5px; }
+#main ul.manual li { line-height: 1.3em; padding: 4px 0; padding-left: 18px; background: url(images/icon_manual_sm.png) no-repeat 0 5px; }
+#main li.manual { display:inline; line-height: 1.3em; padding: 4px 0; padding-left: 18px; background: url(images/icon_manual_sm.png) no-repeat 0 5px; } 
+#main li.video { display:inline; line-height: 1.3em; padding: 4px 0; padding-left: 18px; background: url(images/icon_video_sm.gif) no-repeat 0 5px; } 
+#main a.more { text-align:left; background: url(images/morearrow.png) 100% 0.4em no-repeat; padding-right: 9px; *display:inline-block; }
 
 a { text-decoration: none; }
 a:hover { text-decoration:underline; }
@@ -23,7 +23,7 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 #search .restrict { padding:5px 0 5px 5px; font-size:10px; color:#686868; }
 
 /* UTILITY BAR */
-#utilbar { padding:7px 10px; background: url(http://images.apple.com/support/_images/utilbar.gif) no-repeat center top; }
+#utilbar { padding:7px 10px; background: url(images/utilbar.gif) no-repeat center top; }
 #utilbar .first #search {  height:25px; float:left; }
 #utilbar .first #search a { color:#666; }
 #utilbar .first input.prettysearch { width:220px; }
@@ -35,19 +35,19 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 #utilbar #articleutils { float:right; }
 #utilbar #articleutils .tool { position:relative; float:left; margin-right:10px; font-size:10px; color:#666; }
 #utilbar #articleutils .tool.last { }
-#utilbar #internal { line-height:14px; height:13px; margin:1px; padding:1px 6px 3px; text-align:center; font-size:10px; background: url(http://images.apple.com/support/iknow/images/button_internal.png) center center; }
+#utilbar #internal { line-height:14px; height:13px; margin:1px; padding:1px 6px 3px; text-align:center; font-size:10px; background: url(images/button_internal.png) center center; }
 #utilbar #internal a { color:white; }
 #utilbar #internal a:hover { text-decoration:none; }
 #utilbar #countryselector { text-align:right; font-size:11px }
 #utilbar #email-container { width:250px; }
-#utilbar #email-send { margin-top:2px; padding-left:16px; background: url(http://images.apple.com/support/iknow/images/aqua2spinner12.gif) no-repeat center left }
-#utilbar #email-sent { margin-top:2px; padding-left:16px; background: url(http://images.apple.com/support/iknow/images/i_greencheck.gif) no-repeat center left }
+#utilbar #email-send { margin-top:2px; padding-left:16px; background: url(images/aqua2spinner12.gif) no-repeat center left }
+#utilbar #email-sent { margin-top:2px; padding-left:16px; background: url(images/i_greencheck.gif) no-repeat center left }
 #utilbar #email-address { width:120px; height:13px; font-size:11px; margin:1px 2px; }
 #utilbar #sendbutton { font-size:11px; }
 
 /* wide pretty search for product browser */
 #pb-search, #pb-search a { color:#fff; font-size:13px; }
-#pb-search { padding:10px; background:url(http://images.apple.com/support/iknow/images/pb_searchbg.gif) no-repeat bottom; }
+#pb-search { padding:10px; background:url(images/pb_searchbg.gif) no-repeat bottom; }
 #pb-search input.prettysearch { width:320px; }
 #pb-search .search-wrapper { width: 320px; }
 #pb-search .search-wrapper input.prettysearch { width: 291px; }
@@ -55,14 +55,14 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 #pb-searchfield { float:left; }
 
 /* new utilbar for advanced search */
-#utilbar-advanced #pb-search-topcap { height:5px; background:url(http://images.apple.com/support/iknow/images/pb_searchbg_topcap.gif) no-repeat bottom; }
-#utilbar-advanced #pb-search { padding:4px 10px; background:url(http://images.apple.com/support/iknow/images/pb_searchbg_advanced.gif) no-repeat bottom; }
+#utilbar-advanced #pb-search-topcap { height:5px; background:url(images/pb_searchbg_topcap.gif) no-repeat bottom; }
+#utilbar-advanced #pb-search { padding:4px 10px; background:url(images/pb_searchbg_advanced.gif) no-repeat bottom; }
 #utilbar-advanced #pb-search a { display:block; font-size:10px; margin:2px 0 0 5px; color:#ccc; }
-#utilbar-advanced a.searchtips { padding-left:12px; background:url(http://images.apple.com/support/iknow/images/searchtips.gif) no-repeat 1px 5px; }
-#utilbar-advanced a.searchtips-down { background:url(http://images.apple.com/support/iknow/images/searchtipsdown.gif) no-repeat 1px 5px; }
+#utilbar-advanced a.searchtips { padding-left:12px; background:url(images/searchtips.gif) no-repeat 1px 5px; }
+#utilbar-advanced a.searchtips-down { background:url(images/searchtipsdown.gif) no-repeat 1px 5px; }
 #utilbar-advanced #pb-searchtips { margin:5px 0; font-size:10px; color:#eee; }
 #utilbar-advanced #pb-searchtips td { padding-left:16px; }
-#utilbar-advanced #pb-searchtips .arrowlink { text-align:right; padding:0 16px 0 0; background-image:url(http://images.apple.com/support/iknow/images/arrow_jump.gif); }
+#utilbar-advanced #pb-searchtips .arrowlink { text-align:right; padding:0 16px 0 0; background-image:url(images/arrow_jump.gif); }
 #utilbar-advanced #pb-searchtips .column.first { width:100%; max-width:650px; min-height:60px; _height:60px; }
 #utilbar-advanced #pb-searchtips .column.last { position:absolute; top:73px; right:11px; _top:83px; }
 #utilbar-advanced #searchbox { float:left; }
@@ -71,7 +71,7 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 #utilbar-advanced #articleutils .tool.last { }
 #utilbar-advanced #searchutils { position:absolute; top:14px; right:11px; _top:24px; }
 #utilbar-advanced #searchutils .tool { float:right; }
-#utilbar-advanced #searchutils #country { float:right; line-height:1.8em; padding:1px 12px 0 5px; background:url(http://images.apple.com/support/iknow/images/searchtips.gif) no-repeat right 55%; }
+#utilbar-advanced #searchutils #country { float:right; line-height:1.8em; padding:1px 12px 0 5px; background:url(images/searchtips.gif) no-repeat right 55%; }
 #utilbar-advanced #searchutils a { cursor:pointer; }
 #utilbar-advanced #searchutils a:hover { _background:none; }
 
@@ -82,14 +82,14 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 
 /* non-expanding version */
 #utilbar-advanced #searchlinks { margin:1px 0 0 1px; }
-#utilbar-advanced #searchlinks a { display:inline; padding:0 12px 0 0; margin-right:10px; background:url(http://images.apple.com/support/iknow/images/searchtips.gif) no-repeat right 55%; }
+#utilbar-advanced #searchlinks a { display:inline; padding:0 12px 0 0; margin-right:10px; background:url(images/searchtips.gif) no-repeat right 55%; }
 #utilbar-advanced #pb-search.noexpand { height:36px; }
 
 
 /*#utilbar-advanced #email-container { width:250px; margin-top:2px; }*/
 #utilbar-advanced #email-container { margin-top:2px; white-space:nowrap; }
-#utilbar-advanced #email-send { margin-top:3px; padding-left:20px; background: url(http://images.apple.com/support/iknow/images/aqua2spinner_adv.gif) no-repeat center left }
-#utilbar-advanced #email-sent { margin-top:3px; padding-left:18px; background: url(http://images.apple.com/support/iknow/images/i_greencheck_adv.gif) no-repeat center left }
+#utilbar-advanced #email-send { margin-top:3px; padding-left:20px; background: url(images/aqua2spinner_adv.gif) no-repeat center left }
+#utilbar-advanced #email-sent { margin-top:3px; padding-left:18px; background: url(images/i_greencheck_adv.gif) no-repeat center left }
 #utilbar-advanced #email-address { width:120px; height:13px; font-size:11px; margin:1px 2px; }
 #utilbar-advanced #sendbutton { font-size:11px; }
 
@@ -100,7 +100,7 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 #main ul.buttons { margin:0; padding:4px 8px 10px 8px; font-size:11px; }
 #main ul.buttons li { margin:3px 2px 0 2px; list-style-type:none; }
 #main ul.buttons li a { display:block; height:13px; padding:2px 12px 4px 12px; color:#5c5c5c; text-decoration:none; font-weight:bold; }
-#main ul.buttons li a.selected { color:#fff; background:url(http://images.apple.com/support/iknow/images/button_selected.png) 0 0 no-repeat; }
+#main ul.buttons li a.selected { color:#fff; background:url(images/button_selected.png) 0 0 no-repeat; }
 
 #main ul.buttons .count { font-size:10px; color:#a9a9a9; }
 #main ul.buttons li a.selected .count { color:#d0d0d0; }
@@ -109,22 +109,22 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 /* rounded corners */
 /* !!!! make these into 1 image !!!! */
 .module { border:1px solid #e5e5e5; 
-	background: url(http://images.apple.com/support/_images/module_background.gif) repeat-x bottom;
-	_background: url(http://images.apple.com/support/_images/module_background_ie.gif) repeat-x bottom; 
-	*background: url(http://images.apple.com/support/_images/module_background_ie.gif) repeat-x bottom; }
+	background: url(images/module_background.gif) repeat-x bottom;
+	_background: url(images/module_background_ie.gif) repeat-x bottom; 
+	*background: url(images/module_background_ie.gif) repeat-x bottom; }
 .tl, .tr, .bl, .br { position:relative; } 
-.tl { background: transparent url(http://images.apple.com/support/_images/tl.gif) no-repeat top left; top:-1px; left: -1px; }
-.tr { background: transparent url(http://images.apple.com/support/_images/tr.gif) no-repeat top right; right: -2px; }
-.bl { background: transparent url(http://images.apple.com/support/_images/bl.gif) no-repeat bottom left; bottom: -2px; left: -2px; }
-.br { background: transparent url(http://images.apple.com/support/_images/br.gif) no-repeat bottom right; right: -2px; *bottom: 0; }
+.tl { background: transparent url(images/tl.gif) no-repeat top left; top:-1px; left: -1px; }
+.tr { background: transparent url(images/tr.gif) no-repeat top right; right: -2px; }
+.bl { background: transparent url(images/bl.gif) no-repeat bottom left; bottom: -2px; left: -2px; }
+.br { background: transparent url(images/br.gif) no-repeat bottom right; right: -2px; *bottom: 0; }
 
-.arrowlink { text-align: left; padding:2px 16px 2px 0; background: url(http://images.apple.com/support/_images/arrow_jump.gif) no-repeat center right; }
-.arrowlinklast { text-align: left; padding:2px 16px 2px 0; background: url(http://images.apple.com/support/_images/arrow_jump.gif) no-repeat center right; }
+.arrowlink { text-align: left; padding:2px 16px 2px 0; background: url(images/arrow_jump.gif) no-repeat center right; }
+.arrowlinklast { text-align: left; padding:2px 16px 2px 0; background: url(images/arrow_jump.gif) no-repeat center right; }
 
 .titleicon { float:right; padding:0 10px; }
 
 /* left menu bar */
-#menu h2 { position:relative; top:-1px; left:-1px; padding: 3px 7px; color:white; font-weight:normal; background-color:#aaa; background: url(http://images.apple.com/support/_images/module_headerbg.png) no-repeat center top; }
+#menu h2 { position:relative; top:-1px; left:-1px; padding: 3px 7px; color:white; font-weight:normal; background-color:#aaa; background: url(images/module_headerbg.png) no-repeat center top; }
 #menu h2 a { color: white; }
 #menu h2 a:hover { text-decoration:underline; color: white; }
 #menu h3 { padding: 1px 10px; padding-top: 12px; }
@@ -134,22 +134,22 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 #menu a { color: #666; }
 #menu a:hover { text-decoration:underline; color: #333; }
 #menu select { font-size: 85%; margin: 0 10px; width:140px; }
-#menu .arrowlink { background: url(http://images.apple.com/support/_images/arrow_jump_white.gif) no-repeat center right; }
+#menu .arrowlink { background: url(images/arrow_jump_white.gif) no-repeat center right; }
 #menu .module { background-color: transparent; margin: 0 0 15px 0; font-size: 95%; }
 #menu .hilite { position:relative; left:-1px; background-color: #e8e8e8; }
 
 
 /*#main h2 { font-weight:normal; }*/
-#resourcespsp .module h2 { position:relative; top:-1px; left:-1px; padding: 3px 10px; color:white; font-weight:normal; background-color:#aaa; background: url(http://images.apple.com/support/_images/module_headerbg_wide.png) no-repeat center top; }
+#resourcespsp .module h2 { position:relative; top:-1px; left:-1px; padding: 3px 10px; color:white; font-weight:normal; background-color:#aaa; background: url(images/module_headerbg_wide.png) no-repeat center top; }
 #resourcespsp .module h2 a { color:white; }
-#resourcespsp .module h2 .arrowlink { background: url(http://images.apple.com/support/_images/arrow_jump_white.gif) no-repeat center right; }
+#resourcespsp .module h2 .arrowlink { background: url(images/arrow_jump_white.gif) no-repeat center right; }
 #resourcespsp .module h2 .headerlinkright { float:right; position:relative; left:0px; }
 
 
 /* right sidebar */
 #rightsidebar img { padding:8px 0; }
 #rightsidebar ul { padding-bottom: 5px; }
-#rightsidebar .module h2 { position:relative; top:-1px; left:-1px; padding: 3px 7px; color:white; font-size:11px; font-weight:normal; background-color:#aaa; background: url(http://images.apple.com/support/_images/module_headerbg.png) no-repeat center top; }
+#rightsidebar .module h2 { position:relative; top:-1px; left:-1px; padding: 3px 7px; color:white; font-size:11px; font-weight:normal; background-color:#aaa; background: url(images/module_headerbg.png) no-repeat center top; }
 
 #rightsidebar .lefticon { float:left; padding:0; margin:5px 10px 5px 0; }
 #rightsidebar .desc { padding-bottom:10px; }
@@ -205,10 +205,10 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 #main .smallfont { font-size:10px; }
 #main .maxwidth { width:100%; }
 #main table.basictable th, #main table.basictable td { padding: 5px 10px; }
-#main table.basictable th { font-weight:bold; border-right:1px solid #ddd; background:#bababa url(http://images.apple.com/support/_images/table_headerbg.gif) repeat-x 0 100%; }
-#main table.basictable th.sorted { background:#909090 url(http://images.apple.com/support/_images/table_headerbg_sorted.gif) repeat-x 0 100%; }
-#main table.basictable th.ascending { background:#797979 url(http://images.apple.com/support/_images/table_headerbg_sorted_asc.gif) no-repeat center right; padding-right:25px; }
-#main table.basictable th.descending { background:#797979 url(http://images.apple.com/support/_images/table_headerbg_sorted_desc.gif) no-repeat center right; padding-right:25px; }
+#main table.basictable th { font-weight:bold; border-right:1px solid #ddd; background:#bababa url(images/table_headerbg.gif) repeat-x 0 100%; }
+#main table.basictable th.sorted { background:#909090 url(images/table_headerbg_sorted.gif) repeat-x 0 100%; }
+#main table.basictable th.ascending { background:#797979 url(images/table_headerbg_sorted_asc.gif) no-repeat center right; padding-right:25px; }
+#main table.basictable th.descending { background:#797979 url(images/table_headerbg_sorted_desc.gif) no-repeat center right; padding-right:25px; }
 #main table.basictable th a { color:#fff; }
 #main table.basictable td { border-bottom: 1px solid #ddd; }	
 #main table.basictable tr.odd { background:#fff; }
@@ -226,16 +226,16 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 #flow ul { margin:1em 0; }
 
 #buttongroup { text-align:right; margin-bottom:15px; }
-#buttongroup a { height: 20px; padding: 3px 0 3px 20px; color: white; font-weight:bold; background:transparent url(http://images.apple.com/support/_images/acbutton_background_l.gif) no-repeat center left; }
-.acbutton { height: 20px; padding: 3px 20px 3px 0; background:transparent url(http://images.apple.com/support/_images/acbutton_background_r.gif) no-repeat center right; }
+#buttongroup a { height: 20px; padding: 3px 0 3px 20px; color: white; font-weight:bold; background:transparent url(images/acbutton_background_l.gif) no-repeat center left; }
+.acbutton { height: 20px; padding: 3px 20px 3px 0; background:transparent url(images/acbutton_background_r.gif) no-repeat center right; }
 
 #errorbox { width:640px; margin-top:50px; margin-left:auto; margin-right:auto; }
-#alert { border:1px solid #ddd; padding:8px 15px 8px 38px; margin-bottom:10px; background:#ffffd9 url(http://images.apple.com/support/home/images/icon_alert.gif) no-repeat 5px top; }
+#alert { border:1px solid #ddd; padding:8px 15px 8px 38px; margin-bottom:10px; background:#ffffd9 url(images/icon_alert.gif) no-repeat 5px top; }
 
 /* alerts */
 .alert { border:1px solid #ddd; padding:8px; margin-bottom:10px; background:transparent no-repeat 5px top; }
 .alert.yellow { background-color:#ffffd9; }
-.alert.icn { padding:8px 15px 8px 38px; background-image: url(http://images.apple.com/support/home/images/icon_alert.gif); }
+.alert.icn { padding:8px 15px 8px 38px; background-image: url(images/icon_alert.gif); }
 
 /* warranty checker */
 #personalization { float:right; margin:-10px 0 0 10px; font-size:11px; text-align:right; }
@@ -246,7 +246,7 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 #warranty #warrantycheckspinner { position:absolute; margin:6px 0 0 4px; }
 #warranty #product { padding:10px; margin:20px 20px 0 20px; 
 	border:1px solid #ddd; 
-	background:#fff url(http://images.apple.com/support/applecare/images/warranty_product_bg.jpg) repeat-x 0 0; }
+	background:#fff url(images/warranty_product_bg.jpg) repeat-x 0 0; }
 #warranty #productimage { display:block; float:left; padding:5px 20px 5px 15px;}
 #warranty #productinfo { padding-top:8px; }
 #warranty #productinfo h2 { font-size:18px; font-weight:normal; margin-bottom:5px; }
@@ -255,9 +255,9 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 #warranty #dateofpurchase label { margin-right:10px; }
 #warranty #register, #warranty #results { padding:20px; }
 #warranty #results .status { padding-left:50px; min-height:40px; }
-#warranty #results .green { background:url(http://images.apple.com/support/applecare/images/warranty_status_green.png) no-repeat 5px 5px; }
-#warranty #results .yellow { background:url(http://images.apple.com/support/applecare/images/warranty_status_yellow.png) no-repeat 5px 5px; }
-#warranty #results .red { background:url(http://images.apple.com/support/applecare/images/warranty_status_red.png) no-repeat 5px 5px; }
+#warranty #results .green { background:url(images/warranty_status_green.png) no-repeat 5px 5px; }
+#warranty #results .yellow { background:url(images/warranty_status_yellow.png) no-repeat 5px 5px; }
+#warranty #results .red { background:url(images/warranty_status_red.png) no-repeat 5px 5px; }
 #warranty #results table { width:100%; }
 #warranty #results td { border-bottom:1px solid #dedede; padding:10px 0; }
 #warranty #results td p { margin-bottom:0; }
@@ -305,7 +305,7 @@ hr { margin: 14px 0; border:0; height:1px; color:#ccc; background-color:#ccc; }
 /* global footer with country selector flag */
 #globalfooter .gf-sosumi ul.piped li.country_selector { float:right; text-align:right; }
 #globalfooter .gf-sosumi ul.piped li.country_selector a { display:inline; border-left:none; margin-left:0px; padding-left:0; cursor:pointer; line-height:19px; }
-#globalfooter .gf-sosumi ul.piped li.country_selector p { float:right; padding:0 9px 0 5px; margin:0; background:transparent url(http://images.apple.com/support/home/images/morearrow.png) no-repeat right center; }
+#globalfooter .gf-sosumi ul.piped li.country_selector p { float:right; padding:0 9px 0 5px; margin:0; background:transparent url(images/morearrow.png) no-repeat right center; }
 #globalfooter .gf-sosumi ul.piped li.country_selector p:hover { text-decoration:underline; }
 #globalfooter .gf-sosumi ul.piped li.country_selector img { width:24px; height:24px; margin-top:-2px; border:none; }
 

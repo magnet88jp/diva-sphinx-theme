@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="Author" content="Apple Inc." />
+	<meta name="viewport" content="width=1024" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+	<link id="globalheader-stylesheet" rel="stylesheet" href="http://images.apple.com/support/css/global/nav/navigation.css" type="text/css" />
+
+	<title>Apple - Page Not Found</title>
+	<script src="http://images.apple.com/global/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/lib/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/apple_core.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+
+	<link rel="stylesheet" href="http://images.apple.com/global/styles/base.css" type="text/css" />
+	<style type="text/css">
+		#content a { text-decoration: none; }
+		#content a:hover { text-decoration: underline; }
+		.grid6col .column { width: 14%; margin-left: 2%; }
+		.rownext { margin-top:20px;}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+	var searchSection = 'global';
+	var searchCountry = 'us';
+</script>
+<script src="http://images.apple.com/global/nav/scripts/globalnav.js" type="text/javascript" charset="utf-8"></script>
+<nav id="globalheader">
+	<!--googleoff: all-->
+	<ul id="globalnav" role="navigation">
+		<li id="gn-apple"><a href="/"><span>Apple</span></a></li>
+		<li id="gn-store"><a href="http://store.apple.com/"><span>Store</span></a></li>
+		<li id="gn-mac"><a href="/mac/"><span>Mac</span></a></li>
+		<li id="gn-ipod"><a href="/ipod/"><span>iPod</span></a></li>
+		<li id="gn-iphone"><a href="/iphone/"><span>iPhone</span></a></li>
+		<li id="gn-ipad"><a href="/ipad/"><span>iPad</span></a></li>
+		<li id="gn-itunes"><a href="/itunes/"><span>iTunes</span></a></li>
+		<li id="gn-support" class="gn-last"><a href="/support/"><span>Support</span></a></li>
+	</ul>
+	<!--googleon: all-->
+	<div id="globalsearch">
+		<form action="/search/" method="post" class="search" id="g-search"><div class="sp-label">
+			<label for="sp-searchtext">Search</label>
+			<input type="text" name="q" id="sp-searchtext" accesskey="s" />
+		</div></form>
+		<div id="sp-magnify"><div class="magnify-searchmode"></div><div class="magnify"></div></div>
+		<div id="sp-results"></div>
+	</div>
+</nav>
+<script type="text/javascript">
+	AC.GlobalNav.Instance = new AC.GlobalNav();
+</script>
+
+	<div id="top">
+<!-- SiteCatalyst code version: H.8. Copyright 1997-2006 Omniture, Inc. -->
+
+
+	
+
+
+
+
+	
+
+
+<script type="text/javascript">
+/* RSID: */
+
+var s_account="appleglobal,applesupport"
+
+</script>
+
+
+<script type="text/javascript" src="https://ssl.apple.com/metrics/scripts/s_code_h.js"></script>
+
+
+
+<script type="text/javascript">
+s.pageType="errorPage"
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)</script>
+<!-- End SiteCatalyst code version: H.8. -->
+</div>
+
+	<div id="container">
+		<div id="main">
+			<div id="content">
+				<h1>Hmm, the page you’re looking for can’t be found.</h1>
+				<p>Did you try searching? Enter a keyword(s) in the search field above. Or, try one of the links below.</p>
+
+				<div class="grid6col">
+					<div class="column first">
+						<h2>Apple</h2>
+						<ul>
+							<li><a href="/hotnews/">Hot News</a></li>
+							<li><a href="/store/">Apple Online Store</a></li>
+							<li><a href="/retail/">Apple Retail Store</a></li>
+							<li><a href="/buy/">Find a reseller</a></li>
+							<li><a href="/contact/">Contact Us</a></li>
+							<li><a href="/sitemap/">Site Map</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<h2>Mac</h2>
+						<ul>
+							<li><a href="/macpro/">Mac Pro</a></li>
+							<li><a href="/macmini/">Mac mini</a></li>
+							<li><a href="/macbookair/">MacBook Air</a></li>
+							<li><a href="/macbookpro/">MacBook Pro</a></li>
+							<li><a href="/imac/">iMac</a></li>
+							<li><a href="/getamac/whichmac.html">Which Mac are you?</a></li>
+							<li><a href="/wifi/">Which Wi-Fi are you?</a></li>
+							<li><a href="/macosx/">Mac OS X</a></li>
+							<li><a href="/ilife/">iLife</a></li>
+							<li><a href="/iwork/">iWork</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<h2>iPod</h2>
+						<ul>
+							<li><a href="/ipodtouch/">iPod touch</a></li>
+							<li><a href="/ipodclassic/">iPod classic</a></li>
+							<li><a href="/ipodnano/">iPod nano</a></li>
+							<li><a href="/ipodshuffle/">iPod shuffle</a></li>
+							<li><a href="/ipod/red/">Product (RED)</a></li>
+							<li><a href="/ipod/compare-ipod-models/">Compare iPod Models</a></li>
+							<li><a href="/appletv/">Apple TV</a></li>
+							<li><a href="/ipod/accessories/">Accessories</a></li>
+							<li><a href="/itunes/overview/">iTunes Overview</a></li>
+							<li><a href="/itunes/charts/songs/">iTunes Charts</a></li>
+							<li><a href="http://store.apple.com/us/browse/home/giftcards/itunes/gallery">Buy Gift Cards</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<h2>iPhone</h2>
+						<ul>
+							<li><a href="/iphone/">Introducing iPhone 4S</a></li>
+							<li><a href="/iphone/features/">Features</a></li>
+							<li><a href="/iphone/built-in-apps/">Built-in Apps</a></li>
+							<li><a href="/iphone/from-the-app-store/">From the App Store</a></li>
+							<li><a href="/iphone/ios/">iOS</a></li>
+							<li><a href="/iphone/icloud/">iCloud</a></li>
+							<li><a href="/iphone/specs.html">Tech specs</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<h2>iPad</h2>
+						<ul>
+							<li><a href="/ipad/">Introducing iPad</a></li>
+							<li><a href="/ipad/features">Features</a></li>
+							<li><a href="/ipad/built-in-apps/">Built-in Apps</a></li>
+							<li><a href="/ipad/from-the-app-store/">From the App Store</a></li>
+							<li><a href="/ipad/ios/">iOS</a></li>
+							<li><a href="/ipad/icloud/">iCloud</a></li>
+							<li><a href="/ipad/specs/">Tech Specs</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<h2>iTunes</h2>
+						<ul>
+							<li><a href="/itunes/download/">Download iTunes</a></li>
+							<li><a href="/itunes/what-is/">What is iTunes?</a></li>
+							<li><a href="/itunes/whats-on/">What’s on iTunes</a></li>
+							<li><a href="/itunes/charts/songs/">iTunes Charts</a></li>
+							<li><a href="/itunes/features/">A-Z Features</a></li>
+							<li><a href="/itunes/how-to/">How Tos</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="grid6col rownext">
+					<div class="column first">
+						<h2>Downloads</h2>
+						<ul>							
+							<li><a href="/itunes/download/">Download iTunes</a></li>
+							<li><a href="/safari/download/">Download Safari</a></li>
+							<li><a href="/quicktime/download/">Download QuickTime</a></li>
+							<li><a href="/webapps/">Web apps</a></li>
+							<li><a href="/downloads/dashboard/">Dashboard Widgets</a></li>
+							<li><a href="/trailers/">iTunes Movie Trailers</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<h2>Support</h2>
+						<ul>
+							<li><a href="/support/contact/">Contact Support</a></li>
+							<li><a href="/support/">Online Support &amp; Service</a></li>
+							<li><a href="http://discussions.apple.com/">Apple Discussions</a></li>
+							<li><a href="http://support.apple.com/downloads/">Downloads and Updates</a></li>
+							<li><a href="/support/manuals/">Product Manuals</a></li>
+							<li><a href="/support/find/">Support Site Map</a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div><!--/container-->
+<footer id="globalfooter" class="gf-980">
+	<div id="breadory">
+		<ol id="breadcrumbs">
+			<li class="home"><a href="/">Home</a></li>
+			<li>Page Not Found</li>
+		</ol>
+	</div><!--/breadory-->
+	<p class="gf-buy">Shop the <a href="/store/">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="/retail/">Apple Retail Store</a>, or find a <a href="/buy/">reseller</a>.</p>
+
+<ul class="gf-links piped">
+	<li><a href="/about/" class="first">Apple Info</a></li>
+	<li><a href="/sitemap/">Site Map</a></li>
+	<li><a href="/hotnews/">Hot News</a></li>
+	<li><a href="/rss/">RSS Feeds</a></li>
+	<li><a href="/contact/" class="contact_us">Contact Us</a></li>
+	<li><a href="/choose-your-country/" class="choose"><img src="http://images.apple.com/global/elements/flags/22x22/usa.png" alt="Choose your country or region" width="22" height="22" /></a></li>
+</ul>
+
+<div class="gf-sosumi">
+	<p>Copyright © 2012 Apple Inc. All rights reserved.</p>
+	<ul class="piped">
+		<li><a href="/legal/terms/site.html" class="first">Terms of Use</a></li>
+		<li><a href="/privacy/">Privacy Policy</a></li>
+	</ul>
+</div>
+
+</footer><!--/globalfooter-->
+</body>
+</html>

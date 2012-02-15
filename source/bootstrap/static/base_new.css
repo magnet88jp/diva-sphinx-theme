@@ -90,11 +90,11 @@ a.block:hover { text-decoration: none; }
 a.block:hover span,
 a.block:hover em { color: #08c; text-decoration: underline; }
 /*
-a.more, em.more { white-space: nowrap; padding-right: 10px; background: url(http://images.apple.com/global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; zoom: 1; }
+a.more, em.more { white-space: nowrap; padding-right: 10px; background: url(images/morearrow_08c.gif) no-repeat 100% 50%; zoom: 1; }
 */
-a.external, em.external { white-space: nowrap; padding-right: 15px; background: url(http://images.apple.com/global/elements/icons/external10x10.gif) no-repeat 100% 49%; zoom: 1; }
+a.external, em.external { white-space: nowrap; padding-right: 15px; background: url(images/external10x10.gif) no-repeat 100% 49%; zoom: 1; }
 em.more, em.external { color:#08c; font-style: normal; }
-a[rel="external"] { white-space: nowrap; padding-right: 15px; background: url(http://images.apple.com/global/elements/icons/external10x10.gif) no-repeat 100% 49%; zoom: 1; }
+a[rel="external"] { white-space: nowrap; padding-right: 15px; background: url(images/external10x10.gif) no-repeat 100% 49%; zoom: 1; }
 strong, b { font-weight: bold; }
 em, i, cite { font-style: italic; }
 sup { padding-left: 1px; font-size: 10px !important; font-weight: normal !important; vertical-align: baseline; position: relative; bottom: 0.33em; color: #76797c; _position: static !important; }
@@ -122,15 +122,15 @@ ul ul.circle,
 ul ul.square { margin-top: 4px; margin-bottom: 5px; }
 ol.sosumi { margin-left: 0; padding-left: 2em; }
 
-a.pdf { background: url(http://images.apple.com/global/elements/icons/globaliconpdf12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.html { background: url(http://images.apple.com/global/elements/icons/globaliconhtml12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.qt { background: url(http://images.apple.com/global/elements/icons/globaliconqt12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.ical { background: url(http://images.apple.com/global/elements/icons/globaliconical12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.dl { background: url(http://images.apple.com/global/elements/icons/globalicondl11x10.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.dmg { background: url(http://images.apple.com/global/elements/icons/globalicondmg12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.zip { background: url(http://images.apple.com/global/elements/icons/globaliconzip12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.keynote { background: url(http://images.apple.com/global/elements/icons/globaliconkeynote12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.audio { background: url(http://images.apple.com/global/elements/icons/globaliconaudio12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.pdf { background: url(images/globaliconpdf12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.html { background: url(images/globaliconhtml12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.qt { background: url(images/globaliconqt12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.ical { background: url(images/globaliconical12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.dl { background: url(images/globalicondl11x10.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.dmg { background: url(images/globalicondmg12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.zip { background: url(images/globaliconzip12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.keynote { background: url(images/globaliconkeynote12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.audio { background: url(images/globaliconaudio12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
 
 .last { margin-bottom: 0; }
 #main .sidebar { font-size: 10px; line-height: 18px; color:#333; }
@@ -167,15 +167,15 @@ a.audio { background: url(http://images.apple.com/global/elements/icons/globalic
 #globalfooter ul.piped a.choose img { vertical-align: middle; margin-top: -5px; position: relative; }
 
 /*--- Breadcrumbs (legacy) ---*/
-#globalfooter #breadcrumbs { font-size: 11px; color: #444; background: url(http://images.apple.com/global/nav/images/breadcrumb_bg.png) no-repeat; height: 36px; line-height: 34px; font-weight: bold; text-shadow: 0 1px 0 #fff; }
+#globalfooter #breadcrumbs { font-size: 11px; color: #444; background: url(images/breadcrumb_bg.png) no-repeat; height: 36px; line-height: 34px; font-weight: bold; text-shadow: 0 1px 0 #fff; }
 #globalfooter #breadcrumbs a { color: #444; text-decoration: none; float: left; padding: 0 10px; margin-left: -10px; _cursor: hand; }
 #globalfooter #breadcrumbs a:hover { color: #333; text-decoration: none !important; }
 #globalfooter #breadcrumbs a.home { margin: 0; width: 15px; height: 0; padding-top: 36px; overflow: hidden; }
-#globalfooter #breadcrumbs span { float: left; width: 9px; margin: 0 10px 0 0; height: 0; padding-top: 34px; margin-top: 1px; overflow: hidden; background: url(http://images.apple.com/global/nav/images/breadcrumb_sep.png) no-repeat; }
+#globalfooter #breadcrumbs span { float: left; width: 9px; margin: 0 10px 0 0; height: 0; padding-top: 34px; margin-top: 1px; overflow: hidden; background: url(images/breadcrumb_sep.png) no-repeat; }
 
 /*--- Breadcrumbs ---*/
-#globalfooter ol#breadcrumbs { font-size: 11px; color: #444; background: url(http://images.apple.com/global/nav/images/breadcrumb_bg.png) no-repeat; height: 36px; line-height: 34px; margin: 0; list-style: none; font-weight: bold; text-shadow: 0 1px 0 #fff; }
-#globalfooter ol#breadcrumbs li { float: left; margin: 0; padding: 0 0 0 20px; background: url(http://images.apple.com/global/nav/images/breadcrumb_sep_20080909.png) no-repeat; }
+#globalfooter ol#breadcrumbs { font-size: 11px; color: #444; background: url(images/breadcrumb_bg.png) no-repeat; height: 36px; line-height: 34px; margin: 0; list-style: none; font-weight: bold; text-shadow: 0 1px 0 #fff; }
+#globalfooter ol#breadcrumbs li { float: left; margin: 0; padding: 0 0 0 20px; background: url(images/breadcrumb_sep_20080909.png) no-repeat; }
 #globalfooter ol#breadcrumbs li a { float: left; color: #444; text-decoration: none; padding: 0 10px; margin-left: -10px; }
 #globalfooter ol#breadcrumbs li a:hover { color: #333; text-decoration: none; }
 #globalfooter ol#breadcrumbs li.home { background: none; margin: 0; padding: 0; }
