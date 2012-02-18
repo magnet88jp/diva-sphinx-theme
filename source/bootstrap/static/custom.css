@@ -1,0 +1,16 @@
+#sidebar ul { margin:0 -10px; }
+#sidebar ul li { padding:4px 10px; }
+#sidebar ul li a { font-size:12px; display:block; position:relative; padding:6px 13px; text-decoration:none; color:#8c8c8c; background:url(images/sidebarnav_arrow_grey20090909.gif) no-repeat 100% 8px; -webkit-transition:color 0.2s ease-in-out; -moz-transition:color 0.3s ease-in-out; }
+#sidebar ul:hover li a { -webkit-transition:color 0.2s }
+#sidebar ul li a:hover { color:#08c; background-image:url(images/sidebarnav_arrow_blue20090909.gif); }
+#sidebar ul .icon { position:relative; float:left; margin:-4px 14px 0 -3px; }
+
+#sidebar ul li.current { background:#f2f2f2; position:relative; background:-webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#eaeaea)); }
+#sidebar ul li.current a { color:#333; cursor:default; background-image:url(images/sidebarnav_arrow_black20090909.gif); }
+
+#sidebar ul li.current > ul > li { padding: 4px 10px 4px 30px;}
+#sidebar ul li.current > ul > li a { padding: 4px 13px;}
+#sidebar ul li.current > ul > li a:hover { color:#08c; background-image:url(images/sidebarnav_arrow_blue20090909.gif); }
+
+#sidebar ul li.title { color: rgb(148,148,148); font-size:11px; padding-left:16px; padding-top:4px; }
+

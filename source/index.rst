@@ -12,12 +12,10 @@ Contents:
    :maxdepth: 2
 
   sample
-  pages/1
-  pages/2
-  pages/3
-  about 
-  introduction
-  contact
+  welcome
+  getstarted
+  basic
+  phone
 
 
 

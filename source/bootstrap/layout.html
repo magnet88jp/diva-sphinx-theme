@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="{{ pathto('_static/suggest2.css', 1) }}" type="text/css" />
 <link rel="stylesheet" href="{{ pathto('_static/iphone_ip4.css', 1) }}" type="text/css" />
 <link rel="stylesheet" href="{{ pathto('_static/iphone_3promo.css', 1) }}" type="text/css" />
+<link rel="stylesheet" href="{{ pathto('_static/custom.css', 1) }}" type="text/css" />
 {% endblock %}
 
 {%- block header %}
@@ -42,10 +43,7 @@
       <div class="cap"></div>
   {%- block sidebar1 %}
       <div id="sidebar">
-        <ul class="nav">
-          <li id="tn-welcome" class="selected"><a href="#"><span>welcome</span></a></li>
-          <li id="tn-getstarted"><a href="#"><span>getstarted</span></a></li>
-        </ul>
+        {{ toctree() }}
       </div><!-- /#sidebar -->
   {% endblock %}
 
